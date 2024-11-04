@@ -5,6 +5,7 @@
 body {
     background-color: rgb(239, 151, 62);
 }
+
 .menu {
     display: flex;
     justify-content: space-between;
@@ -12,24 +13,28 @@ body {
     padding: 5px;
     margin: 2px;
 }
+
 .historia {
-   color: white;
-   
+    color: white;
+
 
 }
+
 .botao {
 
-      font-size: 30px;
-      background-color: red;
+    font-size: 30px;
+    background-color: red;
     border-radius: 54px;
 
 
 }
-:hover.botao{
+
+:hover.botao {
     transform: none;
     transition: 54px;
 
 }
+
 .lista {
     color: white;
     display: flex;
@@ -40,7 +45,8 @@ body {
     margin-right: 30px;
     align-items: center;
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
 }
@@ -53,21 +59,22 @@ h1 {
     border: 5px black solid;
     border-radius: 10px;
 }
+
 .imagens {
     display: flex;
     gap: 30px;
     margin-left: 130px;
     margin-top: 60px;
-    
-    }
 
-    .titulo {
-        margin-top: 110px;
-        color: #800000;
-    }
-    
-    .paragrafo {
-        font-size: 22px;
-        color: black;
-        text-decoration: underline;
-    }
+}
+
+.titulo {
+    margin-top: 110px;
+    color: #800000;
+}
+
+.paragrafo {
+    font-size: 22px;
+    color: black;
+    text-decoration: underline;
+}
